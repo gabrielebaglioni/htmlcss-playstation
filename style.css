@@ -2,9 +2,15 @@ header{
    position: fixed;
    width: 100%;
    z-index: 10;
+   max-height: 100px;
+   height: 100px;
 }
 
 .header-top{
    background-color: black;
-   padding: 1rem;
+   padding: 0.5rem;
+}
+.logo-top{
+   
+   width: 110px;
 }
