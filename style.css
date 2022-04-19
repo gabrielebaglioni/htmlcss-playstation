@@ -11,6 +11,19 @@ header{
    padding: 0.5rem;
 }
 .logo-top{
-   
    width: 110px;
+}
+.header-{
+   background-color: white;
+}
+.header-bot li a i {
+   font-size: 1.5rem;
+}
+.btn_{
+   padding: .300rem 1rem;
+   border-radius: 1rem;
+}
+.bt-acc{
+   color: white;
+   background-color: black;
 }
