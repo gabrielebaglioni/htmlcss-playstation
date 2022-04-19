@@ -31,9 +31,6 @@ header{
    background-color: #CD3D0F;
    color: white;
 }
-.hero{
-   padding-top: 100px;
-}
 .jumbo{
    position: relative;
 }
@@ -56,4 +53,29 @@ header{
 .info-jumbo-img{
    width: 200px;
    margin-bottom: 1rem;
+}
+.game{
+   border-radius: 15px;
+   padding: 0.5rem;
+}
+
+.product{
+   padding: 3rem 0;
+}
+
+.product-menu{
+   opacity: 0.8;
+}
+
+.product-menu.select{
+   opacity: 1;
+   border-bottom: 2px solid blue;
+}
+
+.product-menu:hover {
+   opacity: 1;
+   border-bottom: 2px solid blue;
+}
+.img-play{
+   
 }
