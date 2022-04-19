@@ -27,3 +27,33 @@ header{
    color: white;
    background-color: black;
 }
+.btn-acq{
+   background-color: #CD3D0F;
+   color: white;
+}
+.hero{
+   padding-top: 100px;
+}
+.jumbo{
+   position: relative;
+}
+.jumbo-img{
+   width: 100%;
+   min-height: 50vh;
+   object-position: center;
+   object-fit: cover;
+}
+
+.info-jumbo{
+   position: absolute;
+   z-index: 1;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   padding: 3rem 1rem;
+}
+
+.info-jumbo-img{
+   width: 200px;
+   margin-bottom: 1rem;
+}
