@@ -38,6 +38,10 @@ main{
    background-color: #D9DADC;
    color: #1B80D3;
 }
+.btn_now{
+   background-color: whitesmoke;
+   color: black;
+}
 .jumbo{
    position: relative;
 }
@@ -100,6 +104,14 @@ main{
    background-color: lightgray;
 }
 .ps-plus-img{
+   max-width: 300px;
+   width:300px;
+   margin-bottom: 30px;
+}
+.now{
+   background-color: #161C3B;
+}
+.ps-now-img{
    max-width: 300px;
    width:300px;
    margin-bottom: 30px;
