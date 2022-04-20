@@ -116,4 +116,16 @@ main{
    width:300px;
    margin-bottom: 30px;
 }
+.social-list{
+   height: 150px;
+   width: 150px;
+}
+.social_{
+   font-size: 5rem;
+}
+
+.social ul li {
+   list-style: none;
+   padding: 0;
+}
 
