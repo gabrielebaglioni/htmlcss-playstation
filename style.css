@@ -34,6 +34,10 @@ main{
    background-color: #CD3D0F;
    color: white;
 }
+.btn_plus{
+   background-color: #D9DADC;
+   color: #1B80D3;
+}
 .jumbo{
    position: relative;
 }
@@ -92,3 +96,12 @@ main{
 .new-realise{
    color: white;
 }
+.plus{
+   background-color: lightgray;
+}
+.ps-plus-img{
+   max-width: 300px;
+   width:300px;
+   margin-bottom: 30px;
+}
+
