@@ -1,3 +1,4 @@
+/* TAG-SEMANTICI */
 body{
    font-family: 'Roboto', sans-serif;
 }
@@ -17,6 +18,7 @@ footer{
    background-color: #00439C;
    color: white;
 }
+/* HEADER */
 .header-top{
    background-color: black;
    padding: 1rem;
@@ -30,25 +32,56 @@ footer{
 .header-bot li a i {
    font-size: 1.5rem;
 }
-.btn_{
+
+/* BTN */
+.btn span{
+   display: inline-block;
    padding: .300rem 1rem;
-   border-radius: 1rem;
+   border-radius: 2rem;
+   color: white;
 }
-.btn-acc{
+/* .btn.rad{
+   border-radius: 15px;
+} */
+.btn-acc {
    color: white;
    background-color: black;
+   border-radius: 2rem;
 }
-.btn-acq{
+.btn-acq span{
    background-color: #CD3D0F;
    color: white;
 }
-.btn_plus{
+.btn-acq:hover{
+   border-radius: 2rem;
+   outline: none;
+   box-shadow: 0 0 0 1px #CD3D0F;
+}
+.btn-infor{
+   border-radius: 2rem;
+}
+.btn_plus {
    background-color: #D9DADC;
    color: #1B80D3;
+   border-radius: 2rem;
 }
-.btn_now{
+.btn_plus:hover{
+   border-radius: 2rem;
+   outline: none;
+   box-shadow: 0 0 0 1px #1B80D3;
+}
+.btn_now {
    background-color: whitesmoke;
    color: black;
+   border-radius: 2rem;
+}
+.btn_now:hover{
+   border-radius: 2rem;
+   outline: none;
+   box-shadow: 0 0 0 1px whitesmoke;
+}
+.btn_p4{
+   border-radius: 2rem;
 }
 /* .btn-h:hover{
    top: 0;
@@ -58,6 +91,8 @@ footer{
    padding: 1px 1px;
    border: 2px solid #00439C;
 } */
+/* MAIN */
+/* JUMBO / HERO */
 .jumbo{
    position: relative;
 }
@@ -81,6 +116,7 @@ footer{
    width: 200px;
    margin-bottom: 1rem;
 }
+/* SECTION GIOCHI */
 .game{
    border-radius: 15px;
    padding: 0.5rem;
@@ -98,7 +134,7 @@ footer{
    border: 1px solid blue;
    padding: 4px 4px;
 }
-
+/* SECTION PRODUCT */
 .product{
    padding: 3rem 0;
 }
@@ -116,12 +152,14 @@ footer{
    opacity: 1;
    border-bottom: 2px solid blue;
 }
+/* SECTION NEW REALISE */
 .realise{
    background-color: black;
 }
 .new-realise{
    color: white;
 }
+/* SECTION PLAYSTATION-PLUS */
 .plus{
    background-color: lightgray;
 }
@@ -130,6 +168,7 @@ footer{
    width:300px;
    margin-bottom: 30px;
 }
+/* SECTION PLAYSTATION-NOW */
 .now{
    background-color: #161C3B;
 }
@@ -138,6 +177,7 @@ footer{
    width:300px;
    margin-bottom: 30px;
 }
+/* SECTION SOCIAL */
 .social-list{
    height: 150px;
    width: 150px;
@@ -150,6 +190,8 @@ footer{
    list-style: none;
    padding: 0;
 }
+/* FINE MAIN */
+/* INIZIIO FOOTER */
 
 footer ul {
    list-style: none;
